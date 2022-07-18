@@ -1,0 +1,93 @@
+/** General Stylings **/
+.container-fluid {
+    padding: 0 7%;
+}
+
+.description {
+    font-size: 1.5rem;
+    line-height: 2;
+    font-family: 'Lora', serif;
+    color: #212529;
+    font-weight: 600;
+}
+
+.descriptionSection {
+    margin-top: 8rem;
+}
+
+.titleImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    margin-top: 4rem;
+}
+
+hr {
+    border: dotted 0px;
+    border-top: dotted 9px;
+    width: 10%;
+    margin: 5% auto 0;
+}
+
+#features {
+    margin: 2rem 0;
+    padding: 10%;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.feature-box i{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #ffa9dc;
+}
+
+.feature-box h3 {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+
+.feature-box p{
+    font-family: 'Lora', serif;
+    line-height: 2;
+    color: rgb(23, 23, 23);
+}
+
+/** Courses Page **/
+.courses {
+    padding: 10%;
+}
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body h3{
+    text-align: center;
+    font-family: 'Lora', serif;
+    margin: 1rem;
+    font-size: 1.25rem;
+}
+
+.card-body i {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 950px) {
+    .description {
+        text-align: center;
+    }
+
+    .getStartedButton {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+}

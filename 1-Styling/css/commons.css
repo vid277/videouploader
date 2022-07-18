@@ -1,0 +1,44 @@
+
+
+/** NAVBAR Styling **/
+.navbar-brand {
+    width: 50px;
+}
+
+.navbar {
+    background-color: white;
+    padding: 0.45rem 1rem;
+    border-bottom: 1px solid #e5e5e5;
+    line-height: 1;
+    font-family: 'Playfair Display', serif;
+}
+
+.nav-item a{
+    font-family: 'Lora', serif;
+    color: black;
+}
+
+.signUpsignIn .btn {
+    margin: 0 0.25rem;
+    font-family: 'Lora', serif;
+}
+
+/** Footer Styling **/
+#footer {
+    padding: 5% 15%;
+    background-color: aliceblue;
+}
+
+#footer .container {
+    text-align: center;
+}
+
+#footer .container i {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#footer .container p {
+    text-align: center;
+    font-size: 0.85rem;
+}
