@@ -8,3 +8,4 @@
   <li>Verified users can upload videos</li>
   <li>Videos have to get approved before they are published to the platform</li> 
 </ul>
+
