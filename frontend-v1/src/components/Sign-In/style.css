@@ -1,0 +1,14 @@
+.SigninHeader, .row {
+    height: 100%;
+    width: 100%;
+}
+
+.left_div, .right_div {
+    padding: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
