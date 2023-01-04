@@ -1,0 +1,180 @@
+/** --------------------------------------- Fonts --------------------------------------- **/
+
+/* font-family: 'Lota Grotesque Alt 1', sans-serif;
+font-family: 'Lota Grotesque Alt 2', sans-serif;
+font-family: 'Lota Grotesque Alt 3', sans-serif;
+font-family: 'Lota Grotesque', sans-serif;*/
+
+/** ---------------------- Left Div (Inputs and Stuff) Formatting ---------------------- **/
+.upper_div {
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+}
+
+.center_left_div_signin {
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.55rem;
+    transform: translateX(15px);
+}
+
+.header_center_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.header_tagline {
+    font-family: 'Lota Grotesque', sans-serif; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.2rem;
+}
+
+.header_tagline h1 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #1d2023;
+    margin: 0;
+}
+
+.header_tagline p {
+    color: rgb(80, 79, 79);
+}
+
+.signinputs {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.85rem;
+}
+
+.form-control {
+    border: 1.5px solid rgba(135, 133, 133, 0.411);
+    border-radius: 0.5rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    
+    padding: 0.75rem;
+    
+    font-size: 0.90rem;
+    font-family: 'Lota Grotesque', sans-serif; 
+    font-weight: 400;
+    color: rgb(37, 36, 36);
+}
+
+.form-edited {
+    color: rgb(37, 36, 36);
+    width: 100%;
+    padding: 0.75rem;
+    font-family: 'Lota Grotesque', sans-serif; 
+}
+
+.btn-dark {
+    background-color: #212529;
+    color: ghostwhite;
+}
+
+.or_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.or_bar p {
+    padding: 2px !important;
+    margin: 5px;
+    margin-bottom: 7px;
+    font-family: 'Lota Grotesque', sans-serif; 
+    color: rgb(80, 79, 79);
+}
+
+.or_bar hr {
+    width: 46%;
+}
+
+.font-color-white {
+    color: #1d2023;
+}
+
+.paragraph-formatting-signup {
+    font-family: 'Lota Grotesque', sans-serif; 
+    font-size: 0.9rem;
+    margin: 15px;
+    color: rgb(80, 79, 79);
+}
+
+.paragraph-formatting-signup a {
+    text-decoration: none;
+    color: #1d2023;
+    font-weight: 600;
+}
+
+.weirdGoogleLogo {
+    width: 20px;
+    transform: translateY(-1px);
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/** ----------------------------- Right Div (Image) Formatting ------------------------------ **/
+.img_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: center;
+    gap: 0.55rem;
+}
+
+.img_wrapper img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 50px;
+    transform: translateX(35px);
+}
+
+/** ----------------------------- Media Queries Formatting ------------------------------ **/
+@media screen and (max-width: 630px) {
+    .right_div {
+        display: none;
+    }
+
+    .upper_div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .center_left_div {
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
