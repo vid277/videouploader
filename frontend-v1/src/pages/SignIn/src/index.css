@@ -68,6 +68,11 @@ font-family: 'Lota Grotesque', sans-serif;*/
 
 .header_tagline p {
   color: rgb(80, 79, 79);
+  font-size: 15px !important;
+}
+
+p {
+  font-size: 15px !important;
 }
 
 .signinputs {

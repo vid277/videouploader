@@ -171,7 +171,6 @@ const Form = () => {
           <a
             className="btn btn-outline-dark form-edited font-color-white"
             onClick={signInWithGoogle}
-            cookiePolicy="single-host-origin"
           >
             {image && (
               <img src={image} alt="Logo" className="weirdGoogleLogo" />
