@@ -2,7 +2,7 @@ import "./index.css";
 import { Routes, Route } from "react-router-dom";
 import Signin from "./pages/SignIn/src/App";
 import Signup from "./pages/SignUp/src/App";
-import Account from "./pages/Account";
+import Account from "./pages/Account/Account";
 import { AuthContextProvider } from "./context/AuthContext";
 import ProtectedRoute from "./pages/ProtectedRoute";
 
