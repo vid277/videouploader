@@ -107,18 +107,6 @@ form {
   color: rgb(37, 36, 36);
 }
 
-.form-edited {
-  color: rgb(37, 36, 36);
-  width: 100%;
-  padding: 0.75rem;
-  font-family: "Lota Grotesque", sans-serif;
-}
-
-.btn-dark {
-  background-color: #212529;
-  color: ghostwhite;
-}
-
 .or_bar {
   display: flex;
   flex-direction: row;
@@ -154,19 +142,6 @@ form {
   text-decoration: none;
   color: #1d2023;
   font-weight: 600;
-}
-
-.weirdGoogleLogo {
-  width: 20px;
-  transform: translateY(-1px);
-}
-
-.btn {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
 }
 
 /** ----------------------------- Right Div (Image) Formatting ------------------------------ **/

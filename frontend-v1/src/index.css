@@ -2,6 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --bg-primary: white;
+  --font-primary: #1d2023;
+  --font-secondary: rgb(80, 79, 79);
+  --font-secondary: rgb(80, 79, 79);
+  --font-ghostwhite: rgba(237, 237, 243, 0.865);
+  --font-size-paragraph: 15px;
+  --font-size-title: 2.25rem;
+
+  --border-color: rgba(108, 105, 105, 0.514);
+}
+
+.btn-outline-dark {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--font-primary);
+  width: 100%;
+  padding: 0.75rem;
+  font-family: "Lota Grotesque", sans-serif;
+}
+
+.btn-dark {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #212529;
+  color: ghostwhite;
+  width: 100%;
+  padding: 0.75rem;
+  font-family: "Lota Grotesque", sans-serif;
+}
+
+.weirdGoogleLogo {
+  width: 20px;
+  transform: translateY(-1px);
+}
+
+.emphasized-paragraph-text {
+  font-size: var(--font-size-paragraph) !important;
+  font-weight: 500;
+}
+
 ::-webkit-scrollbar {
   width: 12px;
   height: 12px;

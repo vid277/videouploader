@@ -1,11 +1,15 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { UserAuth } from "../../../context/AuthContext";
+
 import "./index.css";
+
 import signinimage from "./home_person_studying.png";
-import logoblack from "./logo-black.png";
+import logoblack from "../../../images/logo-black.png";
+
 import { useEffect } from "react";
 import useState from "react-usestateref";
+
 import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 
 const Signin = () => {
@@ -51,7 +55,7 @@ const Signin = () => {
         const user = result.user;
         // ...
 
-        navigate("/account");
+        navigate("/home");
       })
       .catch((error) => {
         if (error.code === "auth/network-request-failed") {

@@ -1,0 +1,129 @@
+.logo-image {
+  width: 40px;
+}
+
+.navbar {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1.25px solid var(--border-color);
+}
+
+.nav-link {
+  font-family: "Lota Grotesque", sans-serif;
+  font-size: calc(var(--font-size-paragraph) + 0px);
+  font-weight: 500;
+  padding: 0.5px !important;
+
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+
+  color: var(--font-secondary);
+  background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0),
+      rgba(100, 200, 200, 0)
+    ),
+    linear-gradient(to right, var(--font-secondary), var(--font-secondary));
+  background-size: 100% 2px, 0 2px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 500ms;
+}
+
+.nav-link:hover {
+  background-size: 1px 2px, 100% 2px;
+}
+
+.inner-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+
+  width: 100%;
+}
+
+.navbar-expand-lg .navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#username {
+  font-family: "Lota Grotesque", sans-serif;
+  font-size: calc(var(--font-size-paragraph) + 0px);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+#username:hover {
+  background-size: 0 0, 0 0 !important;
+  color: var(--font-primary);
+}
+
+/** MUI IS SO FUCKING ANNOYING BUT IM GONNA TRY EXPLAIN IT FOR FUTURE ME**/
+
+/** This is for the individual items in each of the dropdowns **/
+.MuiMenuItem-root {
+  font-family: "Lota Grotesque", sans-serif !important;
+  padding: 10px !important;
+  margin: 0 !important;
+  background-color: white !important;
+
+  width: 100% !important;
+
+  color: var(--font-secondary) !important;
+  font-size: calc(var(--font-size-paragraph) - 0px) !important;
+
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: flex-start !important;
+
+  text-align: right !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+
+  flex: 1;
+}
+
+.MuiMenuItem-root span {
+  text-align: right !important;
+  width: 100% !important;
+}
+
+.MuiMenuItem-root:hover {
+  background-color: #e0e0e0 !important;
+  border-radius: 4px;
+  transition: 300ms;
+}
+
+/** This is for the actual dropdown, so its referring to the big box **/
+.MuiList-root {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  padding: 5px !important;
+  margin: 0 !important;
+  width: 100%;
+}
+
+/*
+.navbar-toggler {
+  background-color: white;
+}
+
+.nav-link {
+  font-family: "Lota Grotesque", sans-serif;
+  font-size: var(--font-size-paragraph);
+  font-weight: 500;
+  color: var(--font-secondary);
+} */

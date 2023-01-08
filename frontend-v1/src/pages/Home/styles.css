@@ -1,0 +1,28 @@
+.encapsulating-screen-div {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+}
+
+.center-screen-account {
+  width: 100%;
+  height: 100%;
+
+  padding: 1rem;
+
+  flex: 1;
+}
+
+.page-main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-family: "Lota Grotesque", sans-serif;
+  font-size: var(--font-size-title);
+}
+
+

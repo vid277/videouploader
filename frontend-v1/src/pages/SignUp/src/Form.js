@@ -7,7 +7,7 @@ import { GoogleAuthProvider, signInWithPopup, getAuth } from "firebase/auth";
 
 import useForm from "./useForm";
 import validate from "./LoginFormValidationRules";
-import logoblack from "./logo-black.png";
+import logoblack from "../../../images/logo-black.png";
 
 import "./index.css";
 
@@ -50,7 +50,7 @@ const Form = () => {
         const token = credential.accessToken;
         // The signed-in user info.
         const user = result.user;
-        navigate("/account");
+        navigate("/home");
         // ...
       })
       .catch((error) => {

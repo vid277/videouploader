@@ -1,0 +1,17 @@
+.center-footer-on-page {
+  width: 100%;
+  height: max-content;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+
+  font-size: calc(var(--font-size-paragraph) - 1.5px);
+  color: var(--font-secondary);
+
+  border-top: 1.4px solid;
+  border-color: var(--border-color);
+}
